@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		260E1BC41351C43E004EEA38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260E1BC31351C43E004EEA38 /* UIKit.framework */; };
+		260E1BC61351C43E004EEA38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260E1BC51351C43E004EEA38 /* Foundation.framework */; };
+		260E1BC81351C43E004EEA38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260E1BC71351C43E004EEA38 /* CoreGraphics.framework */; };
+		260E1BCE1351C43E004EEA38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 260E1BCC1351C43E004EEA38 /* InfoPlist.strings */; };
+		260E1BD11351C43E004EEA38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 260E1BD01351C43E004EEA38 /* main.m */; };
+		260E1BD41351C43E004EEA38 /* URLCacheImageTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 260E1BD31351C43E004EEA38 /* URLCacheImageTestAppDelegate.m */; };
+		260E1BD71351C43E004EEA38 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 260E1BD51351C43E004EEA38 /* MainWindow.xib */; };
+		260E1BDA1351C43E004EEA38 /* URLCacheImageTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260E1BD91351C43E004EEA38 /* URLCacheImageTestViewController.m */; };
+		260E1BDD1351C43E004EEA38 /* URLCacheImageTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 260E1BDB1351C43E004EEA38 /* URLCacheImageTestViewController.xib */; };
+		260E1BEE1351C59B004EEA38 /* GPImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 260E1BE71351C59B004EEA38 /* GPImageView.m */; };
+		260E1BEF1351C59B004EEA38 /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 260E1BE91351C59B004EEA38 /* ImageCache.m */; };
+		260E1BF01351C59B004EEA38 /* URLCacheAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 260E1BEB1351C59B004EEA38 /* URLCacheAlert.m */; };
+		260E1BF11351C59B004EEA38 /* URLCacheConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 260E1BED1351C59B004EEA38 /* URLCacheConnection.m */; };
+		260E1BFF1351CD05004EEA38 /* sources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 260E1BFE1351CD05004EEA38 /* sources.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		260E1BBF1351C43E004EEA38 /* URLCacheImageTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLCacheImageTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		260E1BC31351C43E004EEA38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		260E1BC51351C43E004EEA38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		260E1BC71351C43E004EEA38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		260E1BCB1351C43E004EEA38 /* URLCacheImageTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "URLCacheImageTest-Info.plist"; sourceTree = "<group>"; };
+		260E1BCD1351C43E004EEA38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		260E1BCF1351C43E004EEA38 /* URLCacheImageTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "URLCacheImageTest-Prefix.pch"; sourceTree = "<group>"; };
+		260E1BD01351C43E004EEA38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		260E1BD21351C43E004EEA38 /* URLCacheImageTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLCacheImageTestAppDelegate.h; sourceTree = "<group>"; };
+		260E1BD31351C43E004EEA38 /* URLCacheImageTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLCacheImageTestAppDelegate.m; sourceTree = "<group>"; };
+		260E1BD61351C43E004EEA38 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		260E1BD81351C43E004EEA38 /* URLCacheImageTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLCacheImageTestViewController.h; sourceTree = "<group>"; };
+		260E1BD91351C43E004EEA38 /* URLCacheImageTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLCacheImageTestViewController.m; sourceTree = "<group>"; };
+		260E1BDC1351C43E004EEA38 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/URLCacheImageTestViewController.xib; sourceTree = "<group>"; };
+		260E1BE61351C59B004EEA38 /* GPImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPImageView.h; sourceTree = "<group>"; };
+		260E1BE71351C59B004EEA38 /* GPImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPImageView.m; sourceTree = "<group>"; };
+		260E1BE81351C59B004EEA38 /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
+		260E1BE91351C59B004EEA38 /* ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
+		260E1BEA1351C59B004EEA38 /* URLCacheAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLCacheAlert.h; sourceTree = "<group>"; };
+		260E1BEB1351C59B004EEA38 /* URLCacheAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLCacheAlert.m; sourceTree = "<group>"; };
+		260E1BEC1351C59B004EEA38 /* URLCacheConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLCacheConnection.h; sourceTree = "<group>"; };
+		260E1BED1351C59B004EEA38 /* URLCacheConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLCacheConnection.m; sourceTree = "<group>"; };
+		260E1BFE1351CD05004EEA38 /* sources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sources.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		260E1BBC1351C43E004EEA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260E1BC41351C43E004EEA38 /* UIKit.framework in Frameworks */,
+				260E1BC61351C43E004EEA38 /* Foundation.framework in Frameworks */,
+				260E1BC81351C43E004EEA38 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		260E1BB41351C43E004EEA38 = {
+			isa = PBXGroup;
+			children = (
+				260E1BC91351C43E004EEA38 /* URLCacheImageTest */,
+				260E1BC21351C43E004EEA38 /* Frameworks */,
+				260E1BC01351C43E004EEA38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		260E1BC01351C43E004EEA38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				260E1BBF1351C43E004EEA38 /* URLCacheImageTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		260E1BC21351C43E004EEA38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				260E1BC31351C43E004EEA38 /* UIKit.framework */,
+				260E1BC51351C43E004EEA38 /* Foundation.framework */,
+				260E1BC71351C43E004EEA38 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		260E1BC91351C43E004EEA38 /* URLCacheImageTest */ = {
+			isa = PBXGroup;
+			children = (
+				260E1BE51351C59B004EEA38 /* GPImage */,
+				260E1BD21351C43E004EEA38 /* URLCacheImageTestAppDelegate.h */,
+				260E1BD31351C43E004EEA38 /* URLCacheImageTestAppDelegate.m */,
+				260E1BD51351C43E004EEA38 /* MainWindow.xib */,
+				260E1BD81351C43E004EEA38 /* URLCacheImageTestViewController.h */,
+				260E1BD91351C43E004EEA38 /* URLCacheImageTestViewController.m */,
+				260E1BDB1351C43E004EEA38 /* URLCacheImageTestViewController.xib */,
+				260E1BCA1351C43E004EEA38 /* Supporting Files */,
+			);
+			path = URLCacheImageTest;
+			sourceTree = "<group>";
+		};
+		260E1BCA1351C43E004EEA38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				260E1BCB1351C43E004EEA38 /* URLCacheImageTest-Info.plist */,
+				260E1BCC1351C43E004EEA38 /* InfoPlist.strings */,
+				260E1BCF1351C43E004EEA38 /* URLCacheImageTest-Prefix.pch */,
+				260E1BD01351C43E004EEA38 /* main.m */,
+				260E1BFE1351CD05004EEA38 /* sources.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		260E1BE51351C59B004EEA38 /* GPImage */ = {
+			isa = PBXGroup;
+			children = (
+				260E1BE61351C59B004EEA38 /* GPImageView.h */,
+				260E1BE71351C59B004EEA38 /* GPImageView.m */,
+				260E1BE81351C59B004EEA38 /* ImageCache.h */,
+				260E1BE91351C59B004EEA38 /* ImageCache.m */,
+				260E1BEA1351C59B004EEA38 /* URLCacheAlert.h */,
+				260E1BEB1351C59B004EEA38 /* URLCacheAlert.m */,
+				260E1BEC1351C59B004EEA38 /* URLCacheConnection.h */,
+				260E1BED1351C59B004EEA38 /* URLCacheConnection.m */,
+			);
+			path = GPImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		260E1BBE1351C43E004EEA38 /* URLCacheImageTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 260E1BE01351C43E004EEA38 /* Build configuration list for PBXNativeTarget "URLCacheImageTest" */;
+			buildPhases = (
+				260E1BBB1351C43E004EEA38 /* Sources */,
+				260E1BBC1351C43E004EEA38 /* Frameworks */,
+				260E1BBD1351C43E004EEA38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = URLCacheImageTest;
+			productName = URLCacheImageTest;
+			productReference = 260E1BBF1351C43E004EEA38 /* URLCacheImageTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		260E1BB61351C43E004EEA38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "communication university of China";
+			};
+			buildConfigurationList = 260E1BB91351C43E004EEA38 /* Build configuration list for PBXProject "URLCacheImageTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 260E1BB41351C43E004EEA38;
+			productRefGroup = 260E1BC01351C43E004EEA38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				260E1BBE1351C43E004EEA38 /* URLCacheImageTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		260E1BBD1351C43E004EEA38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260E1BCE1351C43E004EEA38 /* InfoPlist.strings in Resources */,
+				260E1BD71351C43E004EEA38 /* MainWindow.xib in Resources */,
+				260E1BDD1351C43E004EEA38 /* URLCacheImageTestViewController.xib in Resources */,
+				260E1BFF1351CD05004EEA38 /* sources.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		260E1BBB1351C43E004EEA38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260E1BD11351C43E004EEA38 /* main.m in Sources */,
+				260E1BD41351C43E004EEA38 /* URLCacheImageTestAppDelegate.m in Sources */,
+				260E1BDA1351C43E004EEA38 /* URLCacheImageTestViewController.m in Sources */,
+				260E1BEE1351C59B004EEA38 /* GPImageView.m in Sources */,
+				260E1BEF1351C59B004EEA38 /* ImageCache.m in Sources */,
+				260E1BF01351C59B004EEA38 /* URLCacheAlert.m in Sources */,
+				260E1BF11351C59B004EEA38 /* URLCacheConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		260E1BCC1351C43E004EEA38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				260E1BCD1351C43E004EEA38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		260E1BD51351C43E004EEA38 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				260E1BD61351C43E004EEA38 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		260E1BDB1351C43E004EEA38 /* URLCacheImageTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				260E1BDC1351C43E004EEA38 /* en */,
+			);
+			name = URLCacheImageTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		260E1BDE1351C43E004EEA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		260E1BDF1351C43E004EEA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		260E1BE11351C43E004EEA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "URLCacheImageTest/URLCacheImageTest-Prefix.pch";
+				INFOPLIST_FILE = "URLCacheImageTest/URLCacheImageTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		260E1BE21351C43E004EEA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "URLCacheImageTest/URLCacheImageTest-Prefix.pch";
+				INFOPLIST_FILE = "URLCacheImageTest/URLCacheImageTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		260E1BB91351C43E004EEA38 /* Build configuration list for PBXProject "URLCacheImageTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260E1BDE1351C43E004EEA38 /* Debug */,
+				260E1BDF1351C43E004EEA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		260E1BE01351C43E004EEA38 /* Build configuration list for PBXNativeTarget "URLCacheImageTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260E1BE11351C43E004EEA38 /* Debug */,
+				260E1BE21351C43E004EEA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 260E1BB61351C43E004EEA38 /* Project object */;
+}

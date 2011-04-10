@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>url</key>
+		<string>http://img1.cache.netease.com/cnews/2011/4/7/2011040709195806162.jpg</string>
+		<key>desc</key>
+		<string>GFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFW</string>
+	</dict>
+	<dict>
+		<key>url</key>
+		<string>http://img2.cache.netease.com/cnews/2011/4/7/2011040710190293cda.jpg</string>
+		<key>desc</key>
+		<string>GFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFW</string>
+	</dict>
+	<dict>
+		<key>url</key>
+		<string>http://img1.cache.netease.com/cnews/2011/4/7/201104071013484052d.jpg</string>
+		<key>desc</key>
+		<string>GFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFW</string>
+	</dict>
+	<dict>
+		<key>url</key>
+		<string>http://img1.cache.netease.com/cnews/2011/4/7/20110407091919fd05f.jpg</string>
+		<key>desc</key>
+		<string>GFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFW</string>
+	</dict>
+	<dict>
+		<key>url</key>
+		<string>http://img1.cache.netease.com/cnews/2011/4/7/201104070948525cca3.jpg</string>
+		<key>desc</key>
+		<string>GFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFW</string>
+	</dict>
+	<dict>
+		<key>url</key>
+		<string>http://img2.cache.netease.com/cnews/2011/4/7/2011040710250539b67.jpg</string>
+		<key>desc</key>
+		<string>GFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFW</string>
+	</dict>
+	<dict>
+		<key>url</key>
+		<string>http://img1.cache.netease.com/cnews/2011/2/26/201102260104542ece2.jpg</string>
+		<key>desc</key>
+		<string>GFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFW</string>
+	</dict>
+	<dict>
+		<key>url</key>
+		<string>http://img1.cache.netease.com/cnews/2011/4/7/2011040710453258953.jpg</string>
+		<key>desc</key>
+		<string>GFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFW</string>
+	</dict>
+	<dict>
+		<key>url</key>
+		<string>http://img1.cache.netease.com/cnews/2010/12/7/2010120717522239457.jpg</string>
+		<key>desc</key>
+		<string>GFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFW</string>
+	</dict>
+	<dict>
+		<key>url</key>
+		<string>http://img2.cache.netease.com/cnews/2010/12/6/2010120612582499718.jpg</string>
+		<key>desc</key>
+		<string>GFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFWGFW</string>
+	</dict>
+</array>
+</plist>
