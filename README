@@ -1,0 +1,6 @@
+This is an easy to use wrapper of asynchronous image cache structure.It's a subclass of UIImageView, and extremely easy to use.
+No documentation, just one method:
+
+[imageView setImageURL:imgUrl];
+
+GPImageView is compatible with iOS 2.0 or later.
